@@ -1,66 +1,42 @@
-# ART Document Generator
+# 🏥 Hospital Document Generator
 
-A **Flask-based web application** for generating documents for **Assisted Reproductive Technology (ART)** processes, including structured, validated forms for **sperm donors, oocyte donors, and commissioning couples**.
+A web-based Document Generator developed for hospital use, designed to simplify the creation of professional documents like prescriptions, reports, and certificates. Built using **HTML**, **CSS**, **Flask**, and **JavaScript**, this application streamlines documentation for medical staff with a user-friendly interface and automated formatting.
 
----
-
-## Features
-
-* Structured forms with **accordion layout** for organized data entry.
-* **Input validation** and error handling for accurate data capture.
-* **Progress tracking** to visualize form completion.
-* **Responsive design** for desktop and mobile.
-* **Dynamic field generation** for specific inputs.
+🔗 **Live Demo:** [doc-generator-beta.vercel.app](https://doc-generator-beta.vercel.app)
 
 ---
 
-## Setup
+## ✨ Features
 
-1. **Clone the repository:**
+- 📄 Generate downloadable and printable medical documents
+- 🧾 Customizable form inputs for patient and hospital details
+- ⚡ Real-time preview and formatting
+- 💾 Export to `.docx` and `.pdf` formats (custom logic via Flask backend)
+- 🎨 Clean and responsive UI built with HTML, CSS
+- 🌐 Deployed on [Vercel](https://vercel.com)
 
+---
+
+## 🛠 Tech Stack
+
+### Frontend:
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Backend:
+- ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### Deployment:
+- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository**  
    ```bash
-   git clone <repo-url>
-   cd document-generator
-   ```
+   git clone https://github.com/your-username/doc-generator.git
+   cd doc-generator
 
-2. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application:**
-
-   ```bash
-   python api/app.py
-   ```
-
-5. **Access the app** via your browser at:
-
-   ```
-   http://127.0.0.1:5000
-   ```
-
----
-
-## Requirements
-
-* Python 3.x
-* Flask
-* Bootstrap 5.3.3 (via CDN)
-
----
-
-## Usage
-
-1. Open your web browser.
-2. Navigate to the entry page (`home.html`).
-3. Select the desired form:
-
-   * Sperm Donor
-   * Oocyte Donor
-   * Commissioning Couple
-4. Fill in the required fields in the structured accordion form.
-5. Submit the form to generate and save ART documentation.
-
----
